@@ -1,47 +1,40 @@
-<!DOCTYPE html>
-
-<html>
-
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-	<style>
+<style>
         table {
+            width: 30%;
             background-color: yellow;
             /* border-collapse: collapse; */
-            width: 0%;
         }
-        th { 
-            border: 2px solid black;
+       tr, th, td {
+            border: 1px solid black;
             /* padding: 8px; */
             text-align: left;
-        } */
+        }
     </style>
 </head>
 <body>
-<h2>student details</h2>
-    <table border="1">
-        <tr>
-			<th>NAME</th>
-			<th>AGE</th>
-			<th>BRANCH</th>
-		</tr>
-		<tr>
-			<th>Shaw</th>
-			<th>20</th>
-			<th>CSC</th>
-		</tr>
-		<tr>
-			<th>Adil</th>
-			<th>21</th>
-			<th>ECE</th>
-		</tr>
+
+    <table>
+        <caption>Student Details</caption>
+        <thead>
+            <tr>
+                <th>NAME</th>
+                <th>AGE</th>
+                <th>BRANCH</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Shaw</td>
+                <td>20</td>
+                <td>CSE</td>
+            </tr>
+            <tr>
+                <td>Adil</td>
+                <td>21</td>
+                <td>ECE</td>
+            </tr>
+            <tr>
+			</tr>
+        </tbody>
     </table>
-    <script type="text/javascript" src="./script.js">
-</script>
-
-</body>
-
-</html>
+              
